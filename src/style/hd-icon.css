@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2w0cnz');
+  src:  url('fonts/icomoon.eot?2w0cnz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2w0cnz') format('truetype'),
+    url('fonts/icomoon.woff?2w0cnz') format('woff'),
+    url('fonts/icomoon.svg?2w0cnz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="el-icon-zhgtv-"], [class*=" el-icon-zhgtv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-zhgtv-templates:before {
+  content: "\e903";
+}
+.el-icon-zhgtv-activities:before {
+  content: "\e916";
+}
+.el-icon-zhgtv-records:before {
+  content: "\e926";
+}
